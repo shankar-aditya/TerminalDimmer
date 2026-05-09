@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.terminaldimmer.app</string>
+
+    <key>CFBundleName</key>
+    <string>TerminalDimmer</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>TerminalDimmer</string>
+
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+
+    <!-- Hide dock icon — menu bar only app -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- Accessibility permission required to detect focused window and apply dimming overlay -->
+    <key>NSAccessibilityUsageDescription</key>
+    <string>TerminalDimmer uses accessibility to detect which terminal window is currently active so it can dim inactive terminal windows, reducing eye strain during long coding sessions.</string>
+</dict>
+</plist>
